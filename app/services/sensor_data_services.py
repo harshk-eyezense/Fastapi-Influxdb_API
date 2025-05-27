@@ -1,4 +1,4 @@
-# app/services/sensor_data_service.py
+
 from app.core import influxdb
 from app.models.sensor_data import SensorDataCreate, SensorDataResponse, DeleteSensorDataRequest
 from influxdb_client.client.write_api import SYNCHRONOUS
