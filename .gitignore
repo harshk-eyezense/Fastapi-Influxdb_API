@@ -1,0 +1,19 @@
+# Virtual Environment
+venv/
+.venv/ # Include if you ever use .venv for other virtual env managers
+env/
+*.env # IMPORTANT: Ignore all .env files to protect sensitive data
+.env.*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+# Editors and IDEs
+.vscode/
+.idea/
+# OS generated files
+.DS_Store
+Thumbs.db
+# pytest cache
+.pytest_cache/
+# Any other files you want to ignore (e.g., specific log files)
+*.log
