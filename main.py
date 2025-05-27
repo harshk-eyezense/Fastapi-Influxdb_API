@@ -1,4 +1,4 @@
-# main.py
+
 from fastapi import FastAPI
 from dotenv import load_dotenv
 from app.api.v1.router import api_router
